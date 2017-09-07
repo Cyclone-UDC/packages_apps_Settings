@@ -192,6 +192,8 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
+import com.cyclone.settings.CycloneSettings;
+
 public class SettingsGateway {
 
     /**
@@ -372,6 +374,8 @@ public class SettingsGateway {
             ColorAndMotionFragment.class.getName(),
             LongBackgroundTasksDetails.class.getName(),
             RegionalPreferencesEntriesFragment.class.getName()
+            // Cyclone Additions
+            CycloneSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -418,5 +422,7 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
+            // Cyclone Additions
+            Settings.CycloneSettingsActivity.class.getName(),
     };
 }
