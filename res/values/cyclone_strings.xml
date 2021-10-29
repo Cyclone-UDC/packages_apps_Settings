@@ -37,4 +37,7 @@
     <string name="cyclone_settings_title">Cyclone</string>
     <string name="cyclone_settings_summary">Customization Hub</string>
 
+    <!-- Platform version -->
+    <string name="platform_version">Platform version</string>
+    
 </resources>
